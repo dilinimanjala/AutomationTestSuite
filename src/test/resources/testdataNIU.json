@@ -25,12 +25,17 @@
         "lastName": "School-Program-Test",
         "emailAdress": "Dilini1Samarasinghe191015@test.com",
         "phoneNumber": "0190151003",
-        "country": "United States of America",
-        "zipcode": "94204",
+        "country": "Sri Lanka",
+        "zipcode": "",
         "levelOfEducation": "Some College Credits",
         "pursuingDegree": "Career Advancement",
         "question": "Previous or Transfer Credits",
         "contactCheckBox": "true"
+      },
+      {
+         "testcaseID": "TC_RFI_03",
+         "degreeLevel": "Bachelor's",
+         "SearchText": "Art"
       }
     ]
 }

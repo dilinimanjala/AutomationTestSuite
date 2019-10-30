@@ -27,9 +27,9 @@ public class RFIStepImpl extends TestBase {
         for (Element e : elements) {
             String fieldname=e.getName();
 
-            if(driver.findElement(By.xpath(e.getXpath())).isDisplayed()){
+            if(isElementPresent(By.xpath(e.getXpath()))){
                 WebElement element = driver.findElement(By.xpath(e.getXpath()));
-
+//driver.findElement(By.xpath(e.getXpath())).isDisplayed()
                 switch (fieldname){
                     case("degreeLevel"):
                         String degreeLevel=dataset.getDegreeLevel();
@@ -113,9 +113,7 @@ public class RFIStepImpl extends TestBase {
             }
         }
         driver.findElement(By.xpath((siteData.getAppPages().getRfi().getXpath("submitRequest")))).click();
-
     }
-
 
     @Step("Verify Request Information Submitted")
     public void verifyRequestInformationSubmited() {

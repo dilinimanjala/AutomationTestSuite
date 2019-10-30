@@ -45,6 +45,9 @@ public class TestDataSet {
     @JsonProperty("contactCheckBox")
     private String contactCheckBox;
 
+    @JsonProperty("SearchText")
+    private String searchText;
+
     public String getTestcaseID(){
         return testcaseID;
     }
@@ -96,4 +99,8 @@ public class TestDataSet {
     public String getContactCheckBox() {
         return contactCheckBox;
     }
+    public String getSearchText() {
+        return searchText;
+    }
+
 }

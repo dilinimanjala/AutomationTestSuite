@@ -7,9 +7,7 @@ import com.thoughtworks.gauge.BeforeSuite;
 import com.wiley.ranku.datamodel.Site;
 import com.wiley.ranku.datamodel.TestData;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -20,6 +18,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.IOException;
+import java.sql.Driver;
 
 import static org.apache.logging.log4j.core.util.Loader.getClassLoader;
 
@@ -29,6 +28,8 @@ public class TestBase {
     protected static WebDriver driver;
     protected static Site siteData;
     protected static TestData testData;
+
+    String timeOutMessage="";
 
     // Initialize a driver instance of required browser
     // Since this does not have a significance in the application's business domain, the BeforeSuite hook is used to instantiate the driver
@@ -81,9 +82,9 @@ public class TestBase {
         if(element.isDisplayed()){
             element.click();
         }
-        if(driver.findElement(By.xpath(siteData.getAppPages().getHome().getXpath("liveAgentChat"))).isDisplayed()){
-            driver.findElement(By.xpath(siteData.getAppPages().getHome().getXpath("liveAgentChat"))).click();
-        };
+//        if(driver.findElement(By.xpath(siteData.getAppPages().getHome().getXpath("liveAgentChat"))).isDisplayed()){
+//            driver.findElement(By.xpath(siteData.getAppPages().getHome().getXpath("liveAgentChat"))).click();
+//        };
 
     }
 
@@ -122,6 +123,25 @@ public class TestBase {
     }
     protected boolean checkElementVisible(WebElement element){
         return element.isDisplayed();
+    }
+
+    protected void waitForElement(By selector, long timeOutInSeconds) {
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(selector));
+        } catch (TimeoutException e) {
+            throw new IllegalStateException(timeOutMessage);
+        }
+    }
+
+    protected boolean isElementPresent(By by){
+        try{
+            driver.findElement(by);
+            return true;
+        }
+        catch (NoSuchElementException e){
+            return  false;
+        }
     }
 
 }

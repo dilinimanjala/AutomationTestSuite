@@ -172,84 +172,84 @@
       "elements": [
         {
           "name": "degreeLevel",
-          "webelement": "dropdown",
+          "type": "dropdown",
           "label": "What type of degree do you want to earn?",
           "xpath": "//select[@id='degreeLevel']",
           "data": "Certificate"
         },{
           "name": "fieldOfStudy",
-          "webelement": "dropdown",
+          "type": "dropdown",
           "label": "What field do you want to study?",
           "xpath": "//select[@id='field']",
           "data": "Business"
         },{
           "name": "intrestProgram",
-          "webelement": "dropdown",
+          "type": "dropdown",
           "label": "What program are you interested in?",
           "xpath": "//select[@id='program']",
           "data": "IT Certificate at Northern Illinois University"
         },{
           "name": "firstName",
-          "webelement": "textbox",
+          "type": "textbox",
           "label": "First Name",
           "xpath": "//input[@id='firstName']",
           "data": "DiliniSamarasinghea"
         },{
           "name": "lastName",
-          "webelement": "textbox",
+          "type": "textbox",
           "label": "Last Name",
           "xpath": "//input[@id='lastName']",
           "data": "School-Program-Test"
         },{
           "name": "emailAddress",
-          "webelement": "textbox",
+          "type": "textbox",
           "label": "Password",
           "xpath": "//input[@id='email']",
           "data": "Dilini1Samarasinghe191015@test.com"
         },{
           "name": "phoneNumber",
-          "webelement": "textbox",
+          "type": "textbox",
           "label": "Password",
           "xpath": "//input[@id='phone']",
           "data": "0190151003"
         },{
           "name": "country",
-          "webelement": "dropdown",
+          "type": "dropdown",
           "label": "Password",
           "xpath": "//select[@id='countryCode']",
           "data": "United States of America"
         },{
           "name": "zipcode",
-          "webelement": "textbox",
+          "type": "textbox",
           "label": "Zip Code",
           "xpath": "//input[@id='zipCode']",
           "data": "94203"
         },{
           "name": "levelOfEducation",
-          "webelement": "dropdown",
+          "type": "dropdown",
           "label": "Password",
           "xpath": "//select[@id='educationLevel']",
           "data": "Associates"
         },{
           "name": "pursuingDegree",
-          "webelement": "dropdown",
+          "type": "dropdown",
           "label": "Password",
           "xpath": "//select[@id='why']",
           "data": "Complete Degree"
         },{
           "name": "question",
-          "webelement": "dropdown",
+          "type": "dropdown",
           "label": "Password",
           "xpath": "//select[@id='questions']",
           "data": "Previous or Transfer Credits"
         },{
           "name": "contactCheckBox",
-          "webelement": "checkbox",
+          "type": "checkbox",
           "xpath": "//label[contains(text(),'I consent to receiving SMS/MMS messages generated')]",
           "data": "true"
         },{
           "name": "submitRequest",
-          "element": "button",
+          "type": "button",
           "xpath": "//button[text()='Submit request']"
         },
         {
