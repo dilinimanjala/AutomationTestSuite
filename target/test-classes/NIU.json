@@ -115,7 +115,7 @@
         },
         {
           "name": "liveAgentChat",
-          "xpath": "//div[@id='liveagent_invite_button_5730e000000PBjE']"
+          "xpath": "//div[@id='liveagent_invite_button_5730e000000PBjE']/img[1]"
         }
       ]
     },
@@ -249,15 +249,30 @@
           "data": "true"
         },{
           "name": "submitRequest",
-          "type": "button",
           "xpath": "//button[text()='Submit request']"
-        },
-        {
+        }, {
           "name": "thankYou",
           "xpath": "//div[@class='section visible']//following::h1[text()='Thank you']"
         },{
           "name": "closeThankYou",
           "xpath": "//div[@class='modal visible rfi']//div//following::div[text()='+']"
+        },{
+          "name": "additionalProgram1",
+          "xpath": "//input[@id='rp_0']"
+        }, {
+          "name": "additionalProgram2",
+          "xpath": "//input[@id='rp_1']"
+        }, {
+          "name": "additionalProgram3",
+          "xpath": "//input[@id='rp_2']"
+        },
+        {
+          "name": "sendInformation",
+          "xpath": "//button[contains(text(),'Yes, send information')]"
+        },
+        {
+          "name": "additionalprogramthankyou",
+          "xpath": "//button[contains(text(),'No, thank you')]"
         }
       ]
     }

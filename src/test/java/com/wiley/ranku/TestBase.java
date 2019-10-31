@@ -78,13 +78,13 @@ public class TestBase {
         driver.get(siteData.getEnvironment().getLaunchUrl(System.getenv("environment")));
         Thread.sleep(1000);
 
-        WebElement element=driver.findElement(By.xpath(siteData.getAppPages().getHome().getXpath("continue")));
-        if(element.isDisplayed()){
-            element.click();
+
+        if(isElementPresent(By.xpath(siteData.getAppPages().getHome().getXpath("continue")))){
+            driver.findElement(By.xpath(siteData.getAppPages().getHome().getXpath("continue"))).click();
         }
-//        if(driver.findElement(By.xpath(siteData.getAppPages().getHome().getXpath("liveAgentChat"))).isDisplayed()){
-//            driver.findElement(By.xpath(siteData.getAppPages().getHome().getXpath("liveAgentChat"))).click();
-//        };
+        if(checkElementVisible(driver.findElement(By.xpath(siteData.getAppPages().getHome().getXpath("liveAgentChat"))))){
+            driver.findElement(By.xpath(siteData.getAppPages().getHome().getXpath("liveAgentChat"))).click();
+        };
 
     }
 

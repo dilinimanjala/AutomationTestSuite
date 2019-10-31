@@ -8,9 +8,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 
 public class RFIStepImpl extends TestBase {
+    HashMap<String, String> dataset;
+
     @Step("Click on RFI button")
     public void clickonRequestInformationButton() {
         WebElement rfi = driver.findElement(By.xpath(siteData.getAppPages().getHome().getXpath("requestInfo")));
@@ -18,101 +21,44 @@ public class RFIStepImpl extends TestBase {
     }
 
     @Step("Fill the RFI form <TC_RFI_01>")
-    public void fillRFIForm(String testcaseID) {
+    public void fillRFIForm(String testcaseID) throws InterruptedException {
 
-        TestDataSet dataset=testData.getTestdataset(testcaseID);
+        dataset = testData.getDataSetById(testcaseID);
 
         ArrayList<Element> elements = siteData.getAppPages().getRfi().getElements();
 
         for (Element e : elements) {
-            String fieldname=e.getName();
+            String fieldname = e.getName();
+            String testdata = dataset.get(fieldname);
 
-            if(isElementPresent(By.xpath(e.getXpath()))){
+            if (isElementPresent(By.xpath(e.getXpath())) && e.getType() != null) {
                 WebElement element = driver.findElement(By.xpath(e.getXpath()));
-//driver.findElement(By.xpath(e.getXpath())).isDisplayed()
-                switch (fieldname){
-                    case("degreeLevel"):
-                        String degreeLevel=dataset.getDegreeLevel();
-                        if(degreeLevel!=null){
-                            selectDropDownList(element, degreeLevel);
+                String type = e.getType();
+
+                switch (type) {
+                    case "dropdown":
+                        if (testdata != null) {
+                            selectDropDownList(element, testdata);
+                            Thread.sleep(1000);
                         }
                         break;
-                    case("fieldOfStudy"):
-                        String fieldOfStudy=dataset.getFieldOfStudy();
-                        if(fieldOfStudy!=null){
-                            selectDropDownList(element, fieldOfStudy);
+                    case "textbox":
+                        if (testdata != null) {
+                            setTextAs(element, testdata);
+                            Thread.sleep(1000);
                         }
                         break;
-                    case("intrestProgram"):
-                        String intrestProgram=dataset.getIntrestProgram();
-                        if(intrestProgram!=null){
-                            selectDropDownList(element, intrestProgram);
-                        }
-                        break;
-                    case("firstName"):
-                        String firstName=dataset.getFirstName();
-                        if(firstName!=null){
-                            setTextAs(element, firstName);
-                        }
-                        break;
-                    case("lastName"):
-                        String lastName=dataset.getLastName();
-                        if(lastName!=null){
-                            setTextAs(element, lastName);
-                        }
-                        break;
-                    case("emailAddress"):
-                        String emailAddress=dataset.getEmailAdress();
-                        if(emailAddress!=null){
-                            setTextAs(element, emailAddress);
-                        }
-                        break;
-                    case("phoneNumber"):
-                        String phoneNumber=dataset.getPhoneNumber();
-                        if(phoneNumber!=null){
-                            setTextAs(element, phoneNumber);
-                        }
-                        break;
-                    case("country"):
-                        String country=dataset.getCountry();
-                        if(country!=null){
-                            selectDropDownList(element, country);
-                        }
-                        break;
-                    case("zipcode"):
-                        String zipcode=dataset.getZipcode();
-                        if(zipcode!=null){
-                            setTextAs(element, zipcode);
-                        }
-                        break;
-                    case("levelOfEducation"):
-                        String levelOfEducation=dataset.getLevelOfEducation();
-                        if(levelOfEducation!=null){
-                            selectDropDownList(element, levelOfEducation);
-                        }
-                        break;
-                    case("pursuingDegree"):
-                        String pursuingDegree=dataset.getPursuingDegree();
-                        if(pursuingDegree!=null){
-                            selectDropDownList(element, pursuingDegree);
-                        }
-                        break;
-                    case("question"):
-                        String question=dataset.getQuestion();
-                        if(question!=null){
-                            selectDropDownList(element, question);
-                        }
-                        break;
-                    case("contactCheckBox"):
-                        String contactCheckBox=dataset.getContactCheckBox();
-                        if(Boolean.parseBoolean(contactCheckBox)){
+                    case "checkbox":
+                        if (Boolean.parseBoolean(testdata) != false) {
                             selectCheckBox(element);
+                            Thread.sleep(1000);
                         }
                         break;
                 }
             }
         }
         driver.findElement(By.xpath((siteData.getAppPages().getRfi().getXpath("submitRequest")))).click();
+        Thread.sleep(2000);
     }
 
     @Step("Verify Request Information Submitted")
@@ -124,5 +70,15 @@ public class RFIStepImpl extends TestBase {
     }
 
 
+    @Step("Select Additional programs")
+    public void selectPrograms() {
+        WebElement additionlProgram = driver.findElement(By.xpath((siteData.getAppPages().getRfi().getXpath(dataset.get("additionalProgram")))));
+        selectCheckBox(additionlProgram);
+        clickElement(driver.findElement(By.xpath(siteData.getAppPages().getRfi().getXpath("sendInformation"))));
+    }
 
+    @Step("No Additional Programs Selected")
+    public void NoAdditionalProgram() {
+        clickElement(driver.findElement(By.xpath(siteData.getAppPages().getRfi().getXpath("additionalprogramthankyou"))));
+    }
 }
