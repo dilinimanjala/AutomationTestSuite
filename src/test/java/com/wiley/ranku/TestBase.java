@@ -44,7 +44,6 @@ public class TestBase {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
     @AfterSuite
@@ -76,10 +75,10 @@ public class TestBase {
     @BeforeScenario
     public void launchSite() throws InterruptedException {
         driver.get(siteData.getEnvironment().getLaunchUrl(System.getenv("environment")));
-        Thread.sleep(1000);
+        Thread.sleep(3000);
 
 
-        if(isElementPresent(By.xpath(siteData.getAppPages().getHome().getXpath("continue")))){
+        if(checkElementVisible(driver.findElement(By.xpath(siteData.getAppPages().getHome().getXpath("continue"))))){
             driver.findElement(By.xpath(siteData.getAppPages().getHome().getXpath("continue"))).click();
         }
         if(checkElementVisible(driver.findElement(By.xpath(siteData.getAppPages().getHome().getXpath("liveAgentChat"))))){
@@ -143,5 +142,4 @@ public class TestBase {
             return  false;
         }
     }
-
 }

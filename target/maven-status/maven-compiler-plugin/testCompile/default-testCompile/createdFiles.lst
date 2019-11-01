@@ -1,0 +1,15 @@
+com\wiley\ranku\datamodel\AppPage.class
+com\wiley\ranku\datamodel\AppPages.class
+com\wiley\ranku\TestBase.class
+com\wiley\ranku\steps\SignUpStepImpl.class
+com\wiley\ranku\datamodel\Degree.class
+com\wiley\ranku\steps\DegreePageStepImpl.class
+com\wiley\ranku\steps\HomePageStepImpl.class
+com\wiley\ranku\datamodel\Environment.class
+com\wiley\ranku\datamodel\Configurations.class
+com\wiley\ranku\datamodel\TestData.class
+com\wiley\ranku\datamodel\Element.class
+com\wiley\ranku\steps\RFIStepImpl.class
+com\wiley\ranku\maxsoft\greporter\demo\EmailSender.class
+com\wiley\ranku\datamodel\TestDataSet.class
+com\wiley\ranku\datamodel\Site.class

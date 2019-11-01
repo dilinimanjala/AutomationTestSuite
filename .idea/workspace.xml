@@ -2,21 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0371f1f9-d240-4b82-87e0-b6a341213836" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_osandadeshan_MaxSoft_GReporter_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_mailapi_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_smtp_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_erichseifert_vectorgraphics2d_VectorGraphics2D_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jcommon_1_0_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jfreechart_1_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20090211.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_knowm_xchart_xchart_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/env/default/default.properties" beforeDir="false" afterPath="$PROJECT_DIR$/env/default/default.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ranku-ui-auto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ranku-ui-auto.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/specs/RFI.spec" beforeDir="false" afterPath="$PROJECT_DIR$/specs/RFI.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/ranku.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/Pages/RFIForm.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/AppPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/AppPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/Element.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/TestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/TestDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/TestDataSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/steps/LandingPageSteps.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/steps/RFIStepImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/steps/RFIStepImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiley/ranku/steps/RequestForInfo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/NIU.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/NIU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testdataNIU.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testdataNIU.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testdataNIU.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/NIUTestData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/ranku-ui-auto.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NIU.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NIU.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/Pages/RFIForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/AppPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/AppPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/AppPages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/AppPages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/Configurations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/Configurations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/Degree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/Degree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/Element.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/Element.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/Environment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/Environment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/Site.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/Site.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/TestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/TestData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/TestDataSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/datamodel/TestDataSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/steps/DegreePageStepImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/steps/DegreePageStepImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/steps/HomePageStepImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/steps/HomePageStepImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/steps/LandingPageSteps.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/steps/RFIStepImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/steps/RFIStepImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/steps/RequestForInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/steps/SignUpStepImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wiley/ranku/steps/SignUpStepImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testdataNIU.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,71 +72,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/specs/RFI.spec">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/NIUTestData.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/testdataNIU.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            <state relative-caret-position="242">
+              <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/NIU.json">
+        <entry file="file://$PROJECT_DIR$/specs/HomePage.spec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="273" column="44" selection-start-line="273" selection-start-column="19" selection-end-line="273" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4147#4148#0" expanded="true" />
-                <element signature="e#4186#4187#0" expanded="true" />
-                <element signature="e#4577#4578#0" expanded="true" />
-                <element signature="e#4621#4622#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/Site.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#706#707#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/steps/RFIStepImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -137,17 +122,20 @@
         <option value="$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/TestScenarios.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wiley/ranku/Pages/RFIForm.java" />
         <option value="$PROJECT_DIR$/specs/HomePage.spec" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/TestDataSet.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/TestData.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/Element.java" />
-        <option value="$PROJECT_DIR$/env/default/default.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/AppPages.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/wiley/ranku/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/NIU.json" />
         <option value="$PROJECT_DIR$/src/test/resources/testdataNIU.json" />
-        <option value="$PROJECT_DIR$/specs/RFI.spec" />
         <option value="$PROJECT_DIR$/src/test/java/com/wiley/ranku/steps/RFIStepImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/env/default/default.properties" />
+        <option value="$PROJECT_DIR$/env/email/email.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wiley/ranku/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wiley/ranku/maxsoft/greporter/demo/EmailSender.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/NIU.json" />
+        <option value="$PROJECT_DIR$/src/test/resources/NIUTestData.json" />
+        <option value="$PROJECT_DIR$/specs/RFI.spec" />
       </list>
     </option>
   </component>
@@ -162,11 +150,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="113" />
-    <option name="y" value="233" />
-    <option name="width" value="1239" />
-    <option name="height" value="664" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="240" />
+    <option name="y" value="125" />
+    <option name="width" value="1440" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
@@ -190,6 +178,12 @@
               <item name="ranku-ui-auto" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="env" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="default" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ranku-ui-auto" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ranku-ui-auto" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="env" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="email" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="ranku-ui-auto" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -261,7 +255,32 @@
               <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="wiley" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="ranku" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maxsoft" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ranku-ui-auto" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ranku-ui-auto" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="wiley" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ranku" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maxsoft" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="greporter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ranku-ui-auto" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ranku-ui-auto" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="wiley" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ranku" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maxsoft" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="greporter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="demo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="ranku-ui-auto" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -291,7 +310,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ranku-ui-auto-master/ranku-ui-auto-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ranku_UniWebSite_Automation" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -305,40 +324,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gauge Execution.Submit RFI request successfully">
+  <component name="RunManager" selected="Gauge Execution.RFI.spec (1)">
+    <configuration name="RFI.spec (1)" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/RFI.spec" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="ranku-ui-auto" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RFI.spec" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/RFI.spec" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="ranku-ui-auto" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Submit RFI request successfully with WAS" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/RFI.spec:3" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="ranku-ui-auto" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Submit RFI request successfully with additional programs (1)" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
       <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/RFI.spec:9" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="ranku-ui-auto" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Submit RFI request successfully with additional programs (2)" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/RFI.spec:9" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="ranku-ui-auto" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Submit RFI request successfully with additional programs (5)" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/RFI.spec:9" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/RFI.spec:10" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
@@ -353,22 +387,7 @@
     </configuration>
     <configuration name="Submit RFI request successfully with additional programs" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
       <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/RFI.spec:9" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="ranku-ui-auto" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Submit RFI request successfully" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/RFI.spec:3" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/RFI.spec:10" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
@@ -398,11 +417,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gauge Execution.Submit RFI request successfully" />
+        <item itemvalue="Gauge Execution.RFI.spec (1)" />
+        <item itemvalue="Gauge Execution.Submit RFI request successfully with WAS" />
+        <item itemvalue="Gauge Execution.RFI.spec" />
         <item itemvalue="Gauge Execution.Submit RFI request successfully with additional programs (1)" />
         <item itemvalue="Gauge Execution.Submit RFI request successfully with additional programs" />
-        <item itemvalue="Gauge Execution.Submit RFI request successfully with additional programs (5)" />
-        <item itemvalue="Gauge Execution.Submit RFI request successfully with additional programs (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -420,55 +439,64 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Submit_RFI_request_successfully_with_additional_programs_(5) - 2019.10.31 at 08h 33m 38s.xml">
-      <configuration name="Submit RFI request successfully with additional programs (5)" configurationId="executeSpecs" />
-    </history-entry>
-    <history-entry file="Submit_RFI_request_successfully_with_additional_programs - 2019.10.31 at 08h 48m 15s.xml">
-      <configuration name="Submit RFI request successfully with additional programs" configurationId="executeSpecs" />
-    </history-entry>
-    <history-entry file="Submit_RFI_request_successfully_with_additional_programs_(1) - 2019.10.31 at 09h 03m 29s.xml">
+    <history-entry file="Submit_RFI_request_successfully_with_additional_programs_(1) - 2019.10.31 at 17h 44m 31s.xml">
       <configuration name="Submit RFI request successfully with additional programs (1)" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="Submit_RFI_request_successfully_with_additional_programs_(3) - 2019.10.31 at 09h 06m 31s.xml">
-      <configuration name="Submit RFI request successfully with additional programs (3)" configurationId="executeSpecs" />
-    </history-entry>
-    <history-entry file="Submit_RFI_request_successfully_with_additional_programs_(4) - 2019.10.31 at 09h 13m 40s.xml">
-      <configuration name="Submit RFI request successfully with additional programs (4)" configurationId="executeSpecs" />
-    </history-entry>
-    <history-entry file="Submit_RFI_request_successfully_with_additional_programs_(2) - 2019.10.31 at 09h 19m 28s.xml">
+    <history-entry file="Submit_RFI_request_successfully_with_additional_programs_(2) - 2019.10.31 at 17h 44m 40s.xml">
       <configuration name="Submit RFI request successfully with additional programs (2)" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="Submit_RFI_request_successfully_with_additional_programs_(5) - 2019.10.31 at 09h 27m 23s.xml">
+    <history-entry file="Submit_RFI_request_successfully_with_additional_programs_(3) - 2019.10.31 at 17h 45m 37s.xml">
+      <configuration name="Submit RFI request successfully with additional programs (3)" configurationId="executeSpecs" />
+    </history-entry>
+    <history-entry file="Submit_RFI_request_successfully_with_additional_programs_(4) - 2019.10.31 at 17h 46m 26s.xml">
+      <configuration name="Submit RFI request successfully with additional programs (4)" configurationId="executeSpecs" />
+    </history-entry>
+    <history-entry file="Submit_RFI_request_successfully_with_additional_programs_(5) - 2019.10.31 at 17h 52m 07s.xml">
       <configuration name="Submit RFI request successfully with additional programs (5)" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="Submit_RFI_request_successfully_with_additional_programs - 2019.10.31 at 09h 36m 49s.xml">
+    <history-entry file="Submit_RFI_request_successfully_with_additional_programs - 2019.10.31 at 17h 53m 25s.xml">
       <configuration name="Submit RFI request successfully with additional programs" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="Submit_RFI_request_successfully_with_additional_programs_(1) - 2019.10.31 at 09h 39m 11s.xml">
+    <history-entry file="Submit_RFI_request_successfully_with_additional_programs_(1) - 2019.10.31 at 18h 01m 51s.xml">
       <configuration name="Submit RFI request successfully with additional programs (1)" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="Submit_RFI_request_successfully - 2019.10.31 at 13h 17m 26s.xml">
-      <configuration name="Submit RFI request successfully" configurationId="executeSpecs" />
+    <history-entry file="RFI_spec - 2019.11.01 at 07h 00m 04s.xml">
+      <configuration name="RFI.spec" configurationId="executeSpecs" />
     </history-entry>
+    <history-entry file="Submit_RFI_request_successfully_with_WAS - 2019.11.01 at 07h 13m 42s.xml">
+      <configuration name="Submit RFI request successfully with WAS" configurationId="executeSpecs" />
+    </history-entry>
+    <history-entry file="RFI_spec_(1) - 2019.11.01 at 07h 16m 51s.xml">
+      <configuration name="RFI.spec (1)" configurationId="executeSpecs" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85686654" visible="true" weight="0.24295302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9116279" visible="true" weight="0.24295302" />
       <window_info id="Favorites" order="1" sideWeight="0.09915014" side_tool="true" weight="0.23355705" />
-      <window_info id="Structure" order="2" sideWeight="0.14313346" side_tool="true" visible="true" weight="0.24295302" />
+      <window_info id="Structure" order="2" sideWeight="0.0883721" side_tool="true" visible="true" weight="0.24295302" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26770538" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.27903682" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39093485" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45184135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.5566572" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -511,6 +539,18 @@
       <window_info anchor="right" id="Maven" order="7" weight="0.25100672" />
     </layout-to-restore>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/steps/RFIStepImpl.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -532,9 +572,6 @@
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/default/java.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/steps/LandingPageSteps.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -570,16 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/steps/HomePageStepImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/github/bonigarcia/webdrivermanager/3.6.2/webdrivermanager-3.6.2.jar!/io/github/bonigarcia/wdm/WebDriverManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -591,13 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/steps/RequestForInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -663,16 +683,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/TestScenarios.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/Pages/RFIForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="40" column="108" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="108" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reports/html-report/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -690,24 +700,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specs/HomePage.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/specs/ranku.spec">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -753,13 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/gauge/gauge-java/0.7.2/gauge-java-0.7.2.jar!/com/thoughtworks/gauge/execution/MethodExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/TestData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -767,23 +756,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#563#587#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/default/default.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/TestDataSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -844,34 +816,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/env/default/java.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/steps/RequestForInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
+        <state relative-caret-position="493">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/Pages/RFIForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="40" column="108" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4147#4148#0" expanded="true" />
-            <element signature="e#4186#4187#0" expanded="true" />
-            <element signature="e#4577#4578#0" expanded="true" />
-            <element signature="e#4621#4622#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testdataNIU.json">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="2595">
+          <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/email/email.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/default/default.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/maxsoft/greporter/demo/EmailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/gauge/gauge-java/0.7.2/gauge-java-0.7.2.jar!/com/thoughtworks/gauge/execution/MethodExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/steps/RFIStepImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
+        <state relative-caret-position="199">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/NIU.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="234" column="24" selection-start-line="234" selection-start-column="24" selection-end-line="234" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -882,10 +909,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/NIU.json">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/datamodel/TestDataSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="273" column="44" selection-start-line="273" selection-start-column="19" selection-end-line="273" selection-end-column="44" />
+        <state relative-caret-position="-1083">
+          <caret selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/ranku/steps/HomePageStepImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/NIUTestData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/HomePage.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

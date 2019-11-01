@@ -57,7 +57,8 @@ public class RFIStepImpl extends TestBase {
                 }
             }
         }
-        driver.findElement(By.xpath((siteData.getAppPages().getRfi().getXpath("submitRequest")))).click();
+        //driver.findElement(By.xpath((siteData.getAppPages().getRfi().getXpath("submitRequest")))).click();
+        clickElement(driver.findElement(By.xpath((siteData.getAppPages().getRfi().getXpath("submitRequest")))));
         Thread.sleep(2000);
     }
 
@@ -68,7 +69,6 @@ public class RFIStepImpl extends TestBase {
         WebElement closeRFIThankYou = driver.findElement(By.xpath(siteData.getAppPages().getRfi().getXpath("closeThankYou")));
         clickElement(closeRFIThankYou);
     }
-
 
     @Step("Select Additional programs")
     public void selectPrograms() {

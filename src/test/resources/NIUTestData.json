@@ -10,11 +10,13 @@
         "emailAddress": "Dilini1Samarasinghe191015@test.com",
         "phoneNumber": "0190151003",
         "country": "United States of America",
-        "zipcode": "94203",
+        "zipcode": "32751",
         "levelOfEducation": "Associates",
         "pursuingDegree": "Complete Degree",
         "question": "Previous or Transfer Credits",
-        "contactCheckBox": "true"
+        "contactCheckBox": "true",
+        "WAS": "true",
+        "additionalProgram":"null"
       },
       {
         "testcaseID": "TC_RFI_02",
@@ -31,6 +33,7 @@
         "pursuingDegree": "Career Advancement",
         "question": "Previous or Transfer Credits",
         "contactCheckBox": "true",
+        "WAS": "false",
         "additionalProgram":"additionalProgram1"
       },
       {
