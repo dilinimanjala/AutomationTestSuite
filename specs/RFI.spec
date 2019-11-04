@@ -6,6 +6,7 @@ Tags: NIU
 * Fill the RFI form "TC_RFI_01"
 * No Additional Programs Selected
 * Verify Request Information Submitted
+* Connect to Database and verify RFI data "TC_RFI_01"
 
 ## Submit RFI request successfully with additional programs
 Tags: NIU

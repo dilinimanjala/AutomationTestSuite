@@ -48,7 +48,7 @@ public class TestBase {
 
     @AfterSuite
     public void closeDriver(){
-     // driver.quit();
+      driver.quit();
     }
 
     private WebDriver getDriver(){

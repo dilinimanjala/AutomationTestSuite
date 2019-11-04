@@ -81,4 +81,8 @@ public class RFIStepImpl extends TestBase {
     public void NoAdditionalProgram() {
         clickElement(driver.findElement(By.xpath(siteData.getAppPages().getRfi().getXpath("additionalprogramthankyou"))));
     }
+
+    public void getUniqueEmailAddress (){
+
+    }
 }
