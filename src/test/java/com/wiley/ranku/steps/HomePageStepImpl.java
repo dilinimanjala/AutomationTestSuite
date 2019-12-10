@@ -13,9 +13,11 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.ArrayList;
 import java.util.List;
 
+import static junit.framework.TestCase.assertTrue;
+
 public class HomePageStepImpl extends TestBase {
 
-    @Step("Verify Page Header")
+    @Step("Verify Home Page Header")
     public void verifyPageHeader() {
         WebElement headerTitle = driver.findElement(By.xpath(siteData.getAppPages().getHome().getXpath("title")));
         checkElementVisible(headerTitle);
@@ -68,4 +70,17 @@ public class HomePageStepImpl extends TestBase {
         }
 
     }
+
+    @Step("Get Datatable Value <tableName>")
+    public void getDataTableValues(String tableName){
+        getData(tableName);
+    }
+
+    @Step("Navigate to Degree page and verify")
+    public void navigateToHomePage(){
+        WebElement onlineDegrees = driver.findElement(By.xpath(siteData.getAppPages().getHome().getXpath("degreelink")));
+        clickElement(onlineDegrees);
+        assertTrue(driver.getTitle().contains(dataset.get("DegreePageTitle")));
+    }
+
 }

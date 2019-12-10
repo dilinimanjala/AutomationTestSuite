@@ -19,6 +19,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.IOException;
 import java.sql.Driver;
+import java.util.HashMap;
 
 import static org.apache.logging.log4j.core.util.Loader.getClassLoader;
 
@@ -28,6 +29,7 @@ public class TestBase {
     protected static WebDriver driver;
     protected static Site siteData;
     protected static TestData testData;
+    protected static HashMap<String, String> dataset;
 
     String timeOutMessage="";
 
@@ -141,5 +143,9 @@ public class TestBase {
         catch (NoSuchElementException e){
             return  false;
         }
+    }
+
+    public void getData (String testcaseID){
+        dataset = testData.getDataSetById(testcaseID);
     }
 }

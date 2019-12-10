@@ -7,7 +7,9 @@ import com.wiley.ranku.datamodel.TestDataSet;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 
 
@@ -20,12 +22,14 @@ public class RFIStepImpl extends TestBase {
         clickElement(rfi);
     }
 
-    @Step("Fill the RFI form <TC_RFI_01>")
-    public void fillRFIForm(String testcaseID) throws InterruptedException {
+    @Step("Fill the RFI form")
+    public void fillRFIForm() throws InterruptedException {
 
-        dataset = testData.getDataSetById(testcaseID);
+//        dataset = testData.getDataSetById(testcaseID);
 
         ArrayList<Element> elements = siteData.getAppPages().getRfi().getElements();
+
+        getUniqueEmailAddress(dataset.get("emailAddress"));
 
         for (Element e : elements) {
             String fieldname = e.getName();
@@ -82,7 +86,11 @@ public class RFIStepImpl extends TestBase {
         clickElement(driver.findElement(By.xpath(siteData.getAppPages().getRfi().getXpath("additionalprogramthankyou"))));
     }
 
-    public void getUniqueEmailAddress (){
-
+    public void getUniqueEmailAddress (String initialEmail){
+        Date dNow = new Date();
+        SimpleDateFormat ft = new SimpleDateFormat("yyMMddhhmmss");
+        String datetime = ft.format(dNow);
+        String fullName = initialEmail + datetime+"@test.com";
+        dataset.put("emailAddress",fullName);
     }
 }

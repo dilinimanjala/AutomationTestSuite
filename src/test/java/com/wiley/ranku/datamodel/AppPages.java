@@ -17,6 +17,12 @@ public class AppPages {
     @JsonProperty("Sign-Up")
     private AppPage signup;
 
+    @JsonProperty("DegreePage")
+    private AppPage degreePage;
+
+    @JsonProperty("ProgramPage")
+    private AppPage programPage;
+
 
     public AppPage getHome() {
         return home;
@@ -28,6 +34,14 @@ public class AppPages {
 
     public AppPage getSignUp(){
         return signup;
+    }
+
+    public AppPage getDegreePage() {
+        return degreePage;
+    }
+
+    public AppPage getProgramPage() {
+        return programPage;
     }
 
 }
